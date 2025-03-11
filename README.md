@@ -1,3 +1,8 @@
+### Minhas configurações do Visual Studio Code
+
+> [!NOTE]
+> Algumas configurações podem estar atualizadas ou dessincronizadas, ou incompatíveis com algumas versões do Visual Studio Code (principalmente as configurações apc electron)
+
 ```bash
 {
     "files.autoSave": "afterDelay",
