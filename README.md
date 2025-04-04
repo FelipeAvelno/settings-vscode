@@ -3,7 +3,7 @@
 > [!NOTE]
 > Algumas configurações podem estar atualizadas ou dessincronizadas, ou incompatíveis com algumas versões do Visual Studio Code (principalmente as configurações apc electron)
 
-```bash
+```json
 {
     "files.autoSave": "afterDelay",
     "explorer.confirmDragAndDrop": false,
@@ -11,9 +11,8 @@
     "editor.fontSize": 15,
     "editor.lineHeight": 1.8,
     "workbench.startupEditor": "none",
-    "editor.fontLigatures": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "default",
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": false, // Visibilidade da barra lateral da esquerda
     "editor.scrollbar.vertical": "hidden",
     "explorer.fileNesting.patterns": {
         "*.ts": "${capture}.js",
@@ -32,24 +31,15 @@
     "git.autofetch": true,
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.compactFolders": false,
-    "apc.electron": {
-        "titleBarStyle": "hiddenInset"
-    },
-
-    "apc.header": {
-        "height": 36
-    },
-
-    "apc.listRow": {
-        "height": 24
-    },
-    "apc.font.family": "Inter",
     
     "workbench.layoutControl.enabled": false,
-    "chat.commandCenter.enabled": false,
     "workbench.navigationControl.enabled": false,
     "terminal.integrated.fontSize": 14,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Darcula - WebStorm Edition",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.zoomLevel": 1.9,
+    "workbench.statusBar.visible": false,
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.location": "hidden", // Visibilidade da barra no canto inferior inteiro
 }
 ```
