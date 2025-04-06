@@ -12,7 +12,7 @@
     "editor.lineHeight": 1.8,
     "workbench.startupEditor": "none",
     "editor.fontLigatures": true,
-    "breadcrumbs.enabled": false, // Visibilidade da barra lateral da esquerda
+    "breadcrumbs.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "explorer.fileNesting.patterns": {
         "*.ts": "${capture}.js",
@@ -33,13 +33,24 @@
     "explorer.compactFolders": false,
     
     "workbench.layoutControl.enabled": false,
-    "workbench.navigationControl.enabled": false,
     "terminal.integrated.fontSize": 14,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Visual Studio Dark",
-    "window.zoomLevel": 1.9,
-    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "explorer.confirmDelete": false,
-    "workbench.activityBar.location": "hidden", // Visibilidade da barra no canto inferior inteiro
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.tree.indent": 16,
+    "workbench.navigationControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false
 }
 ```
