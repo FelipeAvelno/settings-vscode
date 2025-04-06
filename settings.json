@@ -6,7 +6,7 @@
     "editor.lineHeight": 1.8,
     "workbench.startupEditor": "none",
     "editor.fontLigatures": true,
-    "breadcrumbs.enabled": false, // Visibilidade da barra lateral da esquerda
+    "breadcrumbs.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "explorer.fileNesting.patterns": {
         "*.ts": "${capture}.js",
@@ -28,7 +28,7 @@
     
     "workbench.layoutControl.enabled": false,
     "terminal.integrated.fontSize": 14,
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark", // Visibilidade da barra no canto inferior inteiro
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "explorer.confirmDelete": false,
     "[dart]": {
         "editor.formatOnSave": true,
